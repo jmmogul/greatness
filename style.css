@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+
+
+.header{
+    background-color: rgb(212, 212, 216);
+    height: 30px;
+    display: flex;
+    gap:10px;
+    justify-content: start;
+    align-items: center;
+}
+.fa-solid fa-messages{
+    background-color: black;
+}
+.fa-solid fa-house-user{
+
+    color: black;
+}
+.Login-form{
+
+    margin: auto;
+    height: 290px;
+    width: 240px;
+    outline: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form input{
+display: flex;
+border-radius: 20px;
+border-width: 1px;
+margin-top:5px ;
+margin-bottom: 10px;
+height: 30px;
+width:200px;
+margin-left:15px;
+border-color: rgb(213, 203, 203);
+background-color: white;
+padding-left: 10px;
+
+}
+
+.remember-me{
+    display: flex;
+    width: 20px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: small;
+    justify-content: center;
+    
+    
+    
+
+}
+    
+   form input [type="checkbox"]{
+    height: 2px;
+    width: 2px;
+  
+   
+    
+
+   }
+
+
+
+
+button{
+    margin-top: -100px;
+    border-radius: 20px;
+    width: 200px;
+    height: 25px;
+    margin-left: 20px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+
+}
+.not-a-member{
+    text-align: center;
+    font-size: small;
+
+}
